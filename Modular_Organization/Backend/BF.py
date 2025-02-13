@@ -1,5 +1,6 @@
-from libraries.py import BF
-BF()
+import numpy as np
+from scipy import signal
+from scipy.signal import butter, filtfilt, TransferFunction
 
 
 # Define a function to apply a Butterworth filter

@@ -1,4 +1,2 @@
-from libraries.py import HHF
-HHF()
-
-
+import numpy as np
+import emd
